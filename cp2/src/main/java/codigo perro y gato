@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        Gato gato = new Gato("Pelusa", 3, "Maullido", "Blanco");
+        gato.treparArbol();
+        gato.cazarRaton();
+        gato.mostrarInformacion();
+
+        System.out.println("-------------");
+
+        Perro perro = new Perro("Buddy", 2, "Ladrar", "Labrador");
+        perro.correr();
+        perro.jugar();
+        perro.mostrarInformacion();
+    }
+}
